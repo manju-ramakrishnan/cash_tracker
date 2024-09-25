@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+    @apply bg-black;
+}
+
+.custom-width {
+    width: 100%; /* Default */
+}
+
+@media (min-width: 768px) { /* For md breakpoint */
+    .custom-width {
+        width: 611px;
+    }
+}
